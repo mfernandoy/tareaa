@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/*pal menu bomnito*/
+.menu{
+    list-style-type: none;
+    background-color: none;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+}
+.menu li:hover{
+    background-color: rgb(91, 96, 122);
+    transition: 0.6s;
+}
+.text-center{
+    text-align: center;
+}
+.fondo{
+    background-image: linear-gradient(rgba(120, 120, 154, 0.9),rgba(0, 0, 0, 0.72)), url(imagenes/valknut-nordic-nordic-landscapes-forest-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 657px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: auto;
+}
+.texto-fondo {
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoPrincipal {
+    margin-top: 16%;
+    font-size: 60px;
+    text-shadow: 0 0 50px black;
+}
+.fondoDos{
+    background-image: linear-gradient(rgba(120, 120, 154, 0.9),rgba(0, 0, 0, 0.72)), url(imagenes/9eb60bc460c8255ed85ed92c60df568c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: center;
+    background-position: center;
+    height: auto;
+}
+.titulos{
+    font-size: xxx-large;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 90px;
+    text-shadow: 0 0 30px black;
+}
+.textoFondoDosParrafo{
+    color: white;
+    text-align: center;
+}
+.botonVisita{
+    background-color: none;
+    width: 200px;
+    text-decoration: dashed;
+    cursor: pointer;
+    color: white;
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 1px dashed white;
+    display: inline-block;
+    margin: 30px 0 0 43%;
+}
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.imagenes img{
+    width: 30%;
+    margin-bottom: 40px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+}
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.input{
+    background: rgb(78, 78, 105);
+    margin-bottom: 15px;
+    border: 0;
+    outline: none;
+    border: 2px solid rgb(175, 175, 175);
+    padding: 20px 10px;
+    font-size: 20px;
+    color: white;
+}
+.input::placeholder{
+    color: azure;
+    margin-bottom: 30px;
+}
+.textareaAncho {
+    width: 98%;
+    margin-bottom: 30px;
+}
+.fuenteLetraFooter{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.textoContacto{
+    margin-top: 30px;
+    margin-left: 5%;
+    color: white;
+    font-size: 30px;
+}
+.letrasPfooter{
+    margin-top: 15px;
+    margin-left: 10%;
+    color: white;
+    font-size: 17px;
+}
+.footerFin{
+    margin-bottom: 15px;
+}
